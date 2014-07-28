@@ -1,5 +1,5 @@
 
-matinv<-function(x){solve(x)%*%x} #basically same as mean example, only change mean to matrix inverse function
+matinv<-function(x){solve(x)} #basically same as mean example, only change mean to matrix inverse function
 makeCacheMatrix <- function(x = matrix()) {
        m <- NULL
         set <- function(y) {
